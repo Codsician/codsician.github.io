@@ -1,31 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>JavaScript Code</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=https://petermultiverse.super.site/">
+    <title>Codsician</title>
 </head>
 <body>
-<h1>JavaScript Code Execution</h1>
+<h1>Codsician</h1>
+
 </body>
 <script>
-    function op(a, b, c) {
-        for (let i = 0; i < a.length; i++) {
-            c[i] = a[i] * b[i];
-        }
-    }
 
-    const len   = 100000000;
-    const size  = 10000000;
-    const a = new Array(size).fill(0);
-    const N = 10;
-
-    let start = Date.now();
-    for (let i = 0; i < N; i++) {
-        a[size - 1] = 10.5;
-        const c = new Array(size).fill(0);
-        op(a, a, c);
-    }
-    let end = Date.now();
-    document.body.innerText=(end - start) / N + ' ms:'+a[size - 1];
-    console.log(`${(end - start) / N} ms: ${a[size - 1]}`);
 </script>
 </html>
